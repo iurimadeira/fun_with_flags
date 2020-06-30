@@ -2,6 +2,7 @@
 
 ## v1.5.2 (unreleased)
 
+* More internal changes to not compile in the package configuration. Removed compile-time referneces to the Ecto repo and the Ecto table name. See the release notes for v1.5.1 (below) for more details on this type of changes.
 * Dev and test fixes to support Phoenix.PubSub on OTP 23 and Elixir >= 1.10.3. This was only an issue when working locally, and there should be no problems when using the previous version of the package in a host application.
 
 ## v1.5.1
